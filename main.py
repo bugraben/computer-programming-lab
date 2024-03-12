@@ -214,6 +214,8 @@ def calcBDI(mass, height):
 
 calcBDI(50, 1.70)
 
+#####
+
 def isLeapYear(year):
     if year // 4 == year / 4:
         if year // 100 == year / 100:
@@ -224,6 +226,7 @@ def isLeapYear(year):
 
 isLeapYear(1992)
 
+#####
 
 def canDivideByZero(number):
     if number // 6 == number / 6:
@@ -231,14 +234,13 @@ def canDivideByZero(number):
     return False
 
 
-## HIZ TESTI
+### HIZ TESTI ###
 
 def func1(inp):
     ret = True
     if inp == False:
         ret = False
     return ret
-
 
 def func2(inp):
     if inp == True:
